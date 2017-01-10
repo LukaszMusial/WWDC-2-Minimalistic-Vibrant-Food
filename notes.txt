@@ -1,0 +1,7 @@
+Uwagi dodatkowe: menu ma siê przyklejaæ do góry przy skrolowaniu (navbar-fixed-top), fajnie by by³o dodaæ smooth scroll
+ (po klikniêciu na odnoœnik w menu ma p³ynnie przenosiæ do danej sekcji, trzeba dodaæ id od ka¿dej sekcji).
+Poczytaj o w³aœciwoœci background css, linear gradient to transparent oraz o przestawianiu kolumn
+ https://kursbootstrap.pl/przestawianie-kolumn/ 
+mo¿e to siê przydaæ :)
+Dodatkowo dla chêtnych, którzy potrafi¹ to zrobiæ: po klikniêciu na button view more ma siê ³adowaæ
+ dodatkowa treœæ (ajaxem, czy czym tam chcecie).
