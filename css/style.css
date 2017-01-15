@@ -1,0 +1,39 @@
+.navbar-custom	{
+	margin-bottom: 0;
+}
+.navbar-default-custom	{
+	margin-top: 27px;
+	border: none;
+	/*background: none;*/
+}
+.navbar-brand-custom	{
+	padding: 0 0 0 83px;
+}
+
+.navbar-nav-custom	{
+	margin: 0;
+
+}
+.navbar-nav-custom > li:last-child	{
+	margin-right: 82px;
+}
+.navbar-nav-custom > li > a	{
+	padding: 0;
+	padding-top: 3px;
+	margin-right: 19px;
+	/*color: green; /*???*/*/
+}
+.navbar-nav-custom > li > a:hover	{
+	border-top: 3px solid #ff6033;
+	padding-top: 0;
+}
+.navbar-right-custom	{
+	margin-right: 0px;
+}
+
+.jumbotron-custom	{
+	height: 500px;
+	background: url("../img/background-strawberry.jpg") no-repeat right ;
+	/*background-size: cover;*/
+}
+
