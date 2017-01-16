@@ -32,8 +32,18 @@
 }
 
 .jumbotron-custom	{
-	height: 500px;
-	background: url("../img/background-strawberry.jpg") no-repeat right ;
-	/*background-size: cover;*/
+	height: 1050px;
+	background: url("../img/background-strawberry1.jpg") no-repeat center;
+	background-size: cover;
+	padding-top: 330px;
 }
-
+.lead-custom	{
+	width: 370px;
+	text-align: justify;
+	/*font-size: 14px; ???*/
+}
+.btn-primary-custom	{
+	background-color: #ff6033;
+	border-radius: 0;
+	border: none;
+}
