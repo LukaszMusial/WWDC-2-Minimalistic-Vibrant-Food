@@ -72,20 +72,20 @@
         </header>
     </section>
 
-    <section>
-        <div class="container">
+    <section class="about-us-background">
+        <!-- <div class="container"> -->
             <div class="row">
-                <div class="col-sm-6 center-block">
-                    <img src="img/photo-cup.jpg">
+                <div class="col-sm-6 bg">
+                    <img class="img-cup" src="img/photo-cup.png">
                 </div>
-                <div class="col-sm-6 center">
+                <div class="col-sm-6">
                     <h2><strong>About Us</strong></h2>
                     <p class="lead lead-custom">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
             </div>
 
-        </div>
+        <!-- </div> -->
     </section>
 
 

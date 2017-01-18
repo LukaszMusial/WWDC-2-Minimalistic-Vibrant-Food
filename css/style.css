@@ -48,6 +48,16 @@
 	border: none;
 }
 .center	{
-	display: flex;
-	align-content: center;
+	/*display: flex;*/
+	/*align-content: center;*/
+}
+.about-us-background	{
+	background-color: #00c4c4;
+	padding-top: 60px;
+}
+.about-us-background h2, p	{
+	color: white;
+}
+.bg {
+	background-color: red;
 }
