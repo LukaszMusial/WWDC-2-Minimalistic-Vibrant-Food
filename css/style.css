@@ -55,9 +55,14 @@
 	background-color: #00c4c4;
 	padding-top: 60px;
 }
-.about-us-background h2, p	{
+.about-us-background h2,
+.about-us-background p	{
 	color: white;
 }
 .bg {
 	background-color: red;
 }
+
+/*.mouse	{
+	height: 40px;
+}*/
