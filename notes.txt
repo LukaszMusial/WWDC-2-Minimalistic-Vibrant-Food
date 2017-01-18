@@ -5,3 +5,11 @@ Poczytaj o w³aœciwoœci background css, linear gradient to transparent oraz o prz
 mo¿e to siê przydaæ :)
 Dodatkowo dla chêtnych, którzy potrafi¹ to zrobiæ: po klikniêciu na button view more ma siê ³adowaæ
  dodatkowa treœæ (ajaxem, czy czym tam chcecie).
+
+
+----------------------------------
+
+*Background i margines w h1 w headerze zminiejszyæ w mniejszych szerokoœciach
+*Zmiana czcionek
+*svg mysz (mo¿e button)
+*centrowanie w kolumnach
