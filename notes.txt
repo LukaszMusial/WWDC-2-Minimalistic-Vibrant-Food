@@ -9,6 +9,8 @@ Dodatkowo dla chêtnych, którzy potrafi¹ to zrobiæ: po klikniêciu na button view 
 
 ----------------------------------
 
+*rozszerzyæ background w ps ¿eby truskawka(dla wszystkich) mieœci³a siê ca³a (lub/i ustaliæ wiêkszy container[jednak raczej nie]) /mediaquery 1230px zmiana t³a
+lu zmiana wyœwietlania/
 *Background i margines w h1 w headerze zminiejszyæ w mniejszych szerokoœciach
 *Zmiana czcionek
 *svg mysz (mo¿e button)

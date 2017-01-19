@@ -31,11 +31,18 @@
 	margin-right: 0px;
 }
 
+
+
 .jumbotron-custom	{
-	height: 1000px;
-	background: url("../img/background-strawberry1.jpg") no-repeat center;
+	/*height: 100%;*/
+	background: url("../img/background-strawberry1.jpg") no-repeat center center;
 	background-size: cover;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
 	padding-top: 330px;
+	margin-bottom: 0px;
+	/*height: 1000px;*/
 }
 .lead-custom	{
 	max-width: 370px;
@@ -53,16 +60,26 @@
 }
 .about-us-background	{
 	background-color: #00c4c4;
-	padding-top: 60px;
+	background: url("../img/bg-cup.png") no-repeat center left;
+	background-size: cover;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+	padding: 0;
+	/*max-width: 2000px;*/
+	/*height: 700px;*/
 }
 .about-us-background h2,
 .about-us-background p	{
 	color: white;
 }
 .bg {
-	background-color: red;
+	/*background-color: red;*/
 }
 
-/*.mouse	{
+.mouse	{
 	height: 40px;
-}*/
+}
+.row-custom	{
+	padding: 150px 0;
+}
