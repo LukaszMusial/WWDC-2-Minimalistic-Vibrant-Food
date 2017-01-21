@@ -34,15 +34,13 @@
 
 
 .jumbotron-custom	{
-	/*height: 100%;*/
 	background: url("../img/background-strawberry1.jpg") no-repeat center center;
 	background-size: cover;
 	-webkit-background-size: cover;
  	-moz-background-size: cover;
   	-o-background-size: cover;
-	padding-top: 330px;
+	padding-top: 200px;
 	margin-bottom: 0px;
-	/*height: 1000px;*/
 }
 .lead-custom	{
 	max-width: 370px;
@@ -54,11 +52,11 @@
 	border-radius: 0;
 	border: none;
 }
-.center	{
-	/*display: flex;*/
-	/*align-content: center;*/
-}
-.about-us-background	{
+
+.center {
+    text-align: center;
+}    
+.about-us	{
 	background-color: #00c4c4;
 	background: url("../img/bg-cup.png") no-repeat center left;
 	background-size: cover;
@@ -66,11 +64,9 @@
  	-moz-background-size: cover;
   	-o-background-size: cover;
 	padding: 0;
-	/*max-width: 2000px;*/
-	/*height: 700px;*/
 }
-.about-us-background h2,
-.about-us-background p	{
+.about-us h2,
+.about-us p	{
 	color: white;
 }
 .bg {
@@ -78,8 +74,22 @@
 }
 
 .mouse	{
-	height: 40px;
+	height: 55px;
 }
-.row-custom	{
+.row-custom-mouse	{
+	padding-top: 280px;
+}
+.row-custom-about-us	{
 	padding: 150px 0;
 }
+
+@media 	only screen and (min-width: 1230px)	{
+	.jumbotron-custom	{
+		height: 1000px;
+		background-size: auto;
+		padding-top: 330px;
+	}
+	.about-us	{
+		height: 700px;
+		background-size: auto;
+}	
