@@ -50,9 +50,13 @@
 	border: none;
 }
 
-.center {
+.center-text {
     text-align: center;
-}    
+}
+.center{
+	margin: 0 auto;
+}
+
 .mouse	{
 	height: 55px;
 }
@@ -63,7 +67,8 @@
 }
 .about-us	{
 	background-color: #00c4c4;
-	/*padding: 0;*/
+	padding-top: 40px;
+	padding-bottom: 20px;
 }
 .about-us h2,
 .about-us p	{
@@ -72,7 +77,41 @@
 .col-custom-about-us	{
 	margin-top: 140px;
 }
+.services	{
+	background-color: #70bfff;
+	padding-top: 180px;
+	padding-bottom: 130px;
+}
 
+.wrap-services-box	{
+/*padding-left: 260px;*/
+}
+
+.services-box	{
+	background-color: #ffffff;
+	width: 100%;
+	/*background: #ffffff url("../img/basket-services.jpg") no-repeat 322px center;*/
+	max-width: 400px;
+	height: 100px;
+	margin-bottom: 20px;
+}
+.services-box:after	{
+	display: block;
+	float: right;
+	margin-top: -30px;
+	background: #ffffff url("../img/basket-services.jpg") no-repeat center center;
+	border-left: 1px solid #9d9d9d;
+	content: '';
+	height: 100px;
+	width: 100px;
+
+}
+.services-box > p	{
+
+}
+.services-img	{
+
+}
 
 
 @media 	only screen and (min-width: 1230px)	{
