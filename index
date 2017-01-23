@@ -99,8 +99,11 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-6 wrap-services-box ">
-                    <div class="services-box center">
-                        <p class="center-text">Online Shopping</p>
+                    <div class="wrap-services-boxibox2">
+                        <div class="services-box center">
+                            <p class="center-text">Online Shopping</p>
+                        </div>
+                        <div class="services-box2 "></div>
                     </div>
                     <div class="services-box center">
                         <p>Quality Product</p>

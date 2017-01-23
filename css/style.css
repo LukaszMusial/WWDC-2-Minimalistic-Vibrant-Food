@@ -83,7 +83,7 @@
 	padding-bottom: 130px;
 }
 
-.wrap-services-box	{
+.wrap-services-boxibox2	{
 /*padding-left: 260px;*/
 }
 
@@ -95,13 +95,13 @@
 	height: 100px;
 	margin-bottom: 20px;
 }
-.services-box:after	{
+.services-box2	{
 	display: block;
 	float: right;
-	margin-top: -30px;
+	/*margin-top: -30px;*/
 	background: #ffffff url("../img/basket-services.jpg") no-repeat center center;
 	border-left: 1px solid #9d9d9d;
-	content: '';
+	/*content: '';*/
 	height: 100px;
 	width: 100px;
 
