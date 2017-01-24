@@ -122,7 +122,33 @@
             </div>
         </div>
     </section>
-
+    <section class="gallery">
+        <div class="container">
+            <h2 class="center-text"><strong>Gallery</strong></h2>
+                <p class="lead lead-custom center center-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="row">
+                <div class="col-sm-8 col-custom">
+                    <img src="img/gallery-plate.png" class="img-responsive">
+                </div>
+                <div class="col-sm-4 col-custom">
+                    <img src="img/gallery-blueberry.png" class="img-responsive">
+                </div>
+                <div class="col-sm-4 col-custom">
+                    <img src="img/gallery-blackberies.png" class="img-responsive">
+                </div>    
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-custom">
+                    <img src="img/gallery-blueberry-cup.png" class="img-responsive">
+                </div>
+                <div class="col-sm-6 col-custom">
+                    <img src="img/gallery-fruit-orange.png" class="img-responsive">
+                </div>  
+            </div>
+            <p><a class="btn btn-primary btn-primary-custom btn-lg text-uppercase" href="#" role="button">View more</a></p>
+        </div>
+    </section>
 
 
 
