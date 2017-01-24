@@ -99,19 +99,16 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-6 wrap-services-box ">
-                    <div class="wrap-services-boxibox2">
-                        <div class="services-box center">
-                            <p class="center-text">Online Shopping</p>
-                        </div>
-                        <div class="services-box2 "></div>
+                    <div class="services-box center services-box-bg-basket">
+                        <p class="centering">Online Shopping</p>
                     </div>
-                    <div class="services-box center">
+                    <div class="services-box center services-box-bg-hand">
                         <p>Quality Product</p>
                     </div>
-                    <div class="services-box center">
-                        <p class="center-text">Domestic & International Delivery</p>
+                    <div class="services-box center services-box-bg-globe">
+                        <p>Domestic & International Delivery</p>
                     </div>
-                    <div class="services-box center">
+                    <div class="services-box center services-box-bg-carrot">
                         <p>Well Organized</p>
                     </div>
                 </div>

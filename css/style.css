@@ -91,23 +91,36 @@
 	background-color: #ffffff;
 	width: 100%;
 	/*background: #ffffff url("../img/basket-services.jpg") no-repeat 322px center;*/
-	max-width: 400px;
+	max-width: 300px;
 	height: 100px;
 	margin-bottom: 20px;
+
 }
-.services-box2	{
-	display: block;
+.services-box:after	{
+	/*display: block;*/
 	float: right;
-	/*margin-top: -30px;*/
-	background: #ffffff url("../img/basket-services.jpg") no-repeat center center;
+	margin-top: -30px;
+	margin-right: -100px;
 	border-left: 1px solid #9d9d9d;
-	/*content: '';*/
+	content: '';
 	height: 100px;
 	width: 100px;
-
 }
-.services-box > p	{
-
+.services-box-bg-basket:after	{
+	background: #ffffff url("../img/basket-services.jpg") no-repeat center center;
+}
+.services-box-bg-hand:after	{
+	background: #ffffff url("../img/hand-services.jpg") no-repeat center center;
+}
+.services-box-bg-globe:after	{
+	background: #ffffff url("../img/globe-services.jpg") no-repeat center center;
+}
+.services-box-bg-carrot:after	{
+	background: #ffffff url("../img/carrot-services.jpg") no-repeat center center;
+}
+.services-box p	{
+text-align: center;
+padding-top: 20px;
 }
 .services-img	{
 
