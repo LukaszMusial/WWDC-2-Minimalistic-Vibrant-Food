@@ -18,4 +18,5 @@ lu zmiana wyœwietlania/ +
 *sprawdziæ klasy wed³ug BEM
 *koniec na padding-topie about us zmieniæ
 *rwd about-us sm pokombinowaæ z bg
-*bg strawberry mediaquery ponad 1600px nag³ówek za pomoc¹ grida wypozycjonowaæ
+*bg strawberry mediaquery ponad 1600px nag³ówek za pomoc¹ grida wypozycjonowaæ [mediaqury dla wszystkich sekcji, dla lg zasotosowaæ class container!]
+

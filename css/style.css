@@ -31,11 +31,11 @@
 	margin-right: 0px;
 }
 .jumbotron-custom	{
-	background: url("../img/background-strawberry1.jpg") no-repeat center center;
+	background: #f9f8fb url("../img/background-strawberry.jpg") no-repeat center center;
 	background-size: cover;
-	-webkit-background-size: cover;
+/*	-webkit-background-size: cover;
  	-moz-background-size: cover;
-  	-o-background-size: cover;
+  	-o-background-size: cover;*/
 	padding-top: 200px;
 	margin-bottom: 0px;
 }
@@ -147,13 +147,29 @@
 
 .gallery	{
 	background-color: #ffe92f;
+	padding-top: 75px;
+	padding-bottom: 100px;
+}
+
+.gallery p 	{
+	padding-bottom: 40px;
 }
 
 .col-custom {
-  padding-right: 0px;
-  padding-left: 0px;
+  margin-bottom: 30px;
 }
 
+.subscribe	{
+	background: url("../img/subscribe-bg.jpg") no-repeat center center;
+	background-size: contain;
+/*	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;*/
+  	padding: 150px 0; 
+}
+.subscribe > .container	 {
+
+}
 .lead-custom-subscribe	{
 	width: 550px;
 }
