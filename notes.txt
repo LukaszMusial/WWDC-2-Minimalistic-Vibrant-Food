@@ -19,4 +19,9 @@ lu zmiana wyœwietlania/ +
 *koniec na padding-topie about us zmieniæ
 *rwd about-us sm pokombinowaæ z bg
 *bg strawberry mediaquery ponad 1600px nag³ówek za pomoc¹ grida wypozycjonowaæ [mediaqury dla wszystkich sekcji, dla lg zasotosowaæ class container!]
-
+*grid z ps pokrywa siê z gridem bootstrapa, wypozycjonowaæ pod grid
+*about us p zmieniæ sztywny padding lub margin na centrowanie dzia³aj¹ce responsywnie
+*services mediaquery i zmiana ofssetu w kolumnach, pseudoklasa jest niewidoczna dla grida
+*mediaquery po dwa w rzêdzie zdjêcia zamiast 3
+*nag³ówki w sekcjach wrzuciæ w div lubr row i col-xx-12
+*do inputów dodaæ labele i póŸniej je ukryæ lub u¿yæ title /poczytaæ na ten temat/

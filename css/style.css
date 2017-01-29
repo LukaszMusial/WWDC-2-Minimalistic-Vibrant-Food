@@ -49,10 +49,14 @@
 	border-radius: 0;
 	border: none;
 }
-.center	{
+
+
+.center-new	{
 	margin: 0 auto;
 }
-
+.hidden-new	{
+	visibility: hidden;
+}
 .mouse	{
 	height: 55px;
 }
@@ -174,6 +178,81 @@
 	width: 550px;
 }
 
+.form-control-custom-subscribe	{
+	height: 44px;
+	border-radius: 0;
+	border: 1px solid #262626;
+}
+.form-control-custom-subscribe::-webkit-input-placeholder	{
+	color: #c2c2c2;
+}
+.form-control-custom-subscribe::-moz-input-placeholder	{
+	color: #c2c2c2;
+}
+.form-control-custom-subscribe::-ms-input-placeholder	{
+	color: #c2c2c2;
+}
+.blog	{
+	background-color: #b07cf8;
+	padding: 105px 0;
+}
+.thumbnail-new	{
+	position: relative;
+	-webkit-box-shadow: inset 0px -123px 128px -41px rgba(0,0,0,0.84);
+	-moz-box-shadow: inset 0px -123px 128px -41px rgba(0,0,0,0.84);
+	box-shadow: inset 0px -123px 128px -41px rgba(0,0,0,0.84);
+}
+.thumbnail-new-bg-smoothie	{
+	background: url("../img/blog-smoothie.jpg");
+	background-size: cover;
+}
+.thumbnail-new-bg-soup	{
+	background: url("../img/blog-soup.jpg");
+	background-size: cover;
+
+}
+.thumbnail-new-bg-raspberries	{
+	background: url("../img/blog-raspberries.jpg");
+	background-size: cover;
+}
+.thumbnail-new > p	{
+	color: white;
+	line-height: 120%;
+	position: absolute;
+	left: 20px;
+}
+
+.thumbnail-new > p:nth-child(3)	{
+	bottom: 35px;
+}
+.thumbnail-new > p:nth-child(4)	{
+	bottom: 10px;
+}
+.thumbnail-new .thumbnail-new-box	{
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	/*background: black;*/
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	height: 60px;
+	width: 60px;
+}
+.thumbnail-new-box > p	{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	color: rgba(255, 255, 255, 1);
+	line-height: 130%;
+	padding-top: 6px;
+}
+.thumbnail-new-box > p:first-line	{
+	font-size: 32px;
+}
+.contact	{
+	background: url("../img/contact-bg.jpg") no-repeat;
+	background-size: cover;
+}
 @media 	only screen and (min-width: 1230px)	{
 	.jumbotron-custom	{
 		height: 1000px;
