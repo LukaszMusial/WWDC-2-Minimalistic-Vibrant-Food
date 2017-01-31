@@ -178,7 +178,7 @@
 	width: 550px;
 }
 
-.form-control-custom-subscribe	{
+.subscribe-form-control-custom	{
 	height: 44px;
 	border-radius: 0;
 	border: 1px solid #262626;
@@ -253,10 +253,31 @@
 	background: url("../img/contact-bg.jpg") no-repeat;
 	background-size: cover;
 }
+.contact-form-control-custom	{
+	height: 50px;
+	background-color: #00c4c3;
+	opacity: 0.4;
+	border-radius: 0;
+	border: none;
+	color: white;
+
+}
+
+.contact-form-control-custom:focus	{
+	opacity: 1;
+}
+.contact-form-control-custom::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #ffffff;
+}
+.contact-form-group-custom	{
+	margin: 0;
+}
+
 @media 	only screen and (min-width: 1230px)	{
 	.jumbotron-custom	{
 		height: 1000px;
 		background-size: auto;
 		padding-top: 330px;
+
 	}
 }
