@@ -253,25 +253,36 @@
 	background: url("../img/contact-bg.jpg") no-repeat;
 	background-size: cover;
 }
+.contact-form-group-custom	{
+	margin: 0;
+}
 .contact-form-control-custom	{
-	height: 50px;
-	background-color: #00c4c3;
+	background-color: #00c4c4;
 	opacity: 0.4;
 	border-radius: 0;
 	border: none;
 	color: white;
-
+	height: 50px;
+}
+.contact-form-group-custom textarea	{
+	padding: 15px;
 }
 
 .contact-form-control-custom:focus	{
 	opacity: 1;
+	border-left: 5px solid #355b82;
+}
+.contact-form-group-custom textarea:focus	{
+	border: 0;
 }
 .contact-form-control-custom::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color:    #ffffff;
 }
-.contact-form-group-custom	{
-	margin: 0;
+
+.contact-text-wrapper	{
+	margin-top: 15px;
 }
+
 
 @media 	only screen and (min-width: 1230px)	{
 	.jumbotron-custom	{

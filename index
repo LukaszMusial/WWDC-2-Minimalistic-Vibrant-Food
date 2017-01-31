@@ -228,21 +228,59 @@
                             <label for="Phone-number"></label>
                             <input type="Phone-number" class="form-control contact-form-control-custom" id="Phone-number" placeholder="Your phone number">
                         </div>
-                        <textarea class="form-control" rows="10"></textarea>
+                        <div class="form-group contact-form-group-custom">
+                            <label for="Message"></label>
+                            <textarea class="form-control contact-form-control-custom" rows="10" placeholder="Your messege..."></textarea>
+                        </div>
+                        
                     </form>
                 </div>
                 <div class="col-sm-3 col-sm-offset-2">
-                    <p>Address</p>
+                    <div class="contact-text-wrapper">
+                    <p><strong>ADDRES</strong></p>
                     <p>123 City name, Street, City, Country</p>
-                    <p>Email</p>
+                    <p><strong>EMAIL</strong></p>
                     <p>1cahee@domain.com</p>
-                    <p>Phone</p>
+                    <p><strong>PHONE</strong></p>
                     <p>+012 345 6789</p>
                 </div>
             </div>
         </div>
     </section>
     <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">C 2015 Company All rights reserved</div>
+                <div class="col-sm-2 col-sm-offset-2"><svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                     width="64px" height="26px" viewBox="0 0 129.000000 53.000000"
+                     preserveAspectRatio="xMidYMid meet">
+
+                    <g transform="translate(0.000000,53.000000) scale(0.100000,-0.100000)"
+                    fill="#b9b9b9" stroke="none">
+                    <path d="M689 515 c-48 -26 -82 -127 -95 -284 -6 -66 -11 -84 -31 -102 -35
+                    -34 -47 -15 -34 57 14 76 14 84 -4 84 -8 0 -24 6 -35 12 -32 20 -88 -16 -119
+                    -76 -17 -34 -41 -59 -77 -83 -92 -61 -171 -65 -206 -9 -56 90 56 326 155 326
+                    18 0 38 -5 45 -12 15 -15 16 -63 2 -89 -14 -25 -65 -51 -93 -47 -34 5 -37 -39
+                    -3 -48 32 -8 59 1 96 33 81 68 80 184 -2 212 -132 46 -312 -185 -276 -354 26
+                    -121 168 -157 287 -74 l44 31 34 -19 c33 -18 35 -18 72 3 37 20 39 20 50 2 14
+                    -22 39 -23 69 -2 20 14 23 14 28 0 10 -27 20 -19 59 49 40 68 86 120 71 80
+                    -18 -46 -19 -95 -2 -120 20 -30 40 -31 84 -5 32 20 32 20 65 0 40 -25 61 -25
+                    115 0 42 19 43 19 75 0 42 -26 63 -25 124 5 64 32 80 50 64 69 -10 12 -20 10
+                    -61 -16 -47 -29 -90 -34 -97 -11 -2 6 5 14 15 18 61 19 97 111 53 135 -56 30
+                    -112 -7 -132 -85 -13 -52 -55 -88 -98 -83 -36 4 -35 21 3 42 62 33 77 111 25
+                    130 -59 21 -110 -23 -124 -106 -6 -35 -27 -58 -54 -58 -15 0 -13 46 4 104 11
+                    36 12 53 4 62 -15 18 -60 -5 -89 -46 -35 -49 -33 -29 5 46 61 120 78 199 49
+                    228 -19 19 -31 19 -65 1z m41 -42 c0 -33 -78 -238 -87 -230 -6 7 15 126 29
+                    162 16 40 38 75 49 75 5 0 9 -3 9 -7z m-253 -267 c-9 -60 -27 -96 -49 -96 -37
+                    0 -13 104 29 129 26 15 26 15 20 -33z m473 20 c0 -20 -35 -56 -55 -56 -12 0
+                    -4 45 12 62 23 25 43 23 43 -6z m190 0 c0 -20 -35 -56 -55 -56 -12 0 -4 45 12
+                    62 23 25 43 23 43 -6z"/>
+                    </g>
+                    </svg>
+                </div>
+                <div class="col-sm-3 col-sm-offset-2">Made with love by Auskteez</div>
+            </div>
+        </div>
     </footer>
 
 
