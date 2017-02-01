@@ -139,7 +139,7 @@
 }
 
 .wrap-services-head	{
-	position: relative;
+	/*position: relative;*/
 }
 
 .wrap-services-head > h2	{
@@ -283,6 +283,16 @@
 	margin-top: 15px;
 }
 
+footer	{
+	background-color: #262626;
+}
+.footer-wraper	{
+	padding: 33px 0 28px 0;
+}
+footer p	{
+	color: #b9b9b9;
+	padding-top: 6px;
+}
 
 @media 	only screen and (min-width: 1230px)	{
 	.jumbotron-custom	{

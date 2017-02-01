@@ -249,8 +249,8 @@
     </section>
     <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-sm-3">C 2015 Company All rights reserved</div>
+            <div class="row footer-wraper">
+                <div class="col-sm-3"><p>&copy 2015 Company All rights reserved</p></div>
                 <div class="col-sm-2 col-sm-offset-2"><svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                      width="64px" height="26px" viewBox="0 0 129.000000 53.000000"
                      preserveAspectRatio="xMidYMid meet">
@@ -278,7 +278,7 @@
                     </g>
                     </svg>
                 </div>
-                <div class="col-sm-3 col-sm-offset-2">Made with love by Auskteez</div>
+                <div class="col-sm-3 col-sm-offset-2"><p>Made with love by Auskteez</p></div>
             </div>
         </div>
     </footer>
