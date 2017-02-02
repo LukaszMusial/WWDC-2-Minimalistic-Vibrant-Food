@@ -25,3 +25,4 @@ lu zmiana wyœwietlania/ +
 *mediaquery po dwa w rzêdzie zdjêcia zamiast 3
 *nag³ówki w sekcjach wrzuciæ w div lubr row i col-xx-12
 *do inputów dodaæ labele i póŸniej je ukryæ lub u¿yæ title /poczytaæ na ten temat/
+*przejœcie do stanu focus w inputach bardziej g³adkie animowane

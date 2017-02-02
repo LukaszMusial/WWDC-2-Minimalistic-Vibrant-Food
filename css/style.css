@@ -1,3 +1,14 @@
+p	{
+		font-size: 16px !important;
+}
+body	{
+	font-family: 'Raleway', sans-serif;
+
+
+}
+h1	{
+	font-weight: 900;
+}
 .navbar-custom	{
 	margin-bottom: 0;
 }
@@ -42,6 +53,7 @@
 .lead-custom	{
 	max-width: 370px;
 	text-align: justify;
+	font-size: 17px;
 
 }
 .btn-primary-custom	{
@@ -49,7 +61,6 @@
 	border-radius: 0;
 	border: none;
 }
-
 
 .center-new	{
 	margin: 0 auto;
@@ -70,13 +81,25 @@
 	padding-top: 40px;
 	padding-bottom: 20px;
 }
-.about-us h2,
-.about-us p	{
-	color: white;
-}
 .col-custom-about-us	{
-	margin-top: 140px;
+text-align: center;
 }
+
+.col-custom-about-us:before	{
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -0.25em; /* Adjusts for spacing */
+}
+.about-us-col-custom-wraper	{
+	color: white;
+  display: inline-block;
+  vertical-align: middle;
+  width: 300px;
+}
+
+
 .services	{
 	background-color: #70bfff;
 	padding-top: 180px;
