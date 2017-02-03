@@ -27,6 +27,7 @@ lu zmiana wyœwietlania/ +
 *mediaquery po dwa w rzêdzie zdjêcia zamiast 3
 *nag³ówki w sekcjach wrzuciæ w div lubr row i col-xx-12
 *do inputów dodaæ labele i póŸniej je ukryæ lub u¿yæ title /poczytaæ na ten temat/
+<<<<<<< HEAD
 *Blog thumbnailsy/karty dodaæ jako linki
 *About us text wycentrowaæ rozj¿d¿a siê przy mniejszych szerokoœciach
 *Services jakaœ przerwa miêdzy kartami a img przy mniejszych szerokoœciach
@@ -35,3 +36,6 @@ lu zmiana wyœwietlania/ +
 *footer dla mobile wycentrowaæ
 *linear gradient to transparent o co chodzi
 *zablokowaæ areatext
+=======
+*przejœcie do stanu focus w inputach bardziej g³adkie animowane
+>>>>>>> origin/master
