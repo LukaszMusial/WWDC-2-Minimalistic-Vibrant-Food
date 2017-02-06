@@ -1,5 +1,5 @@
 p	{
-		font-size: 16px !important;
+	font-size: 16px !important;
 }
 body	{
 	font-family: 'Raleway', sans-serif;
@@ -9,38 +9,43 @@ body	{
 h1	{
 	font-weight: 900;
 }
-.navbar-custom	{
-	margin-bottom: 0;
+h2	{
+	font-weight: 700;
+	font-size: 74px;
 }
+
 .navbar-default-custom	{
+	margin-bottom: 0;
 	margin-top: 27px;
+	/*padding: 2px 300px 0 290px;*/
 	border: none;
+	height: 55px;
 	/*background: none;*/
 }
 .navbar-brand-custom	{
-	padding: 0 0 0 83px;
+	padding: 0 0 0 0;
 }
 
 .navbar-nav-custom	{
 	margin: 0;
 
 }
-.navbar-nav-custom > li:last-child	{
-	margin-right: 82px;
-}
-.navbar-nav-custom > li > a	{
+
+.navbar-default-custom .navbar-nav-custom > li > a	{
 	padding: 0;
-	padding-top: 3px;
-	margin-right: 19px;
-	/*color: green; ???*/
+	padding-top: 8px;
+	margin-right: 40px;
+	font-size: 16px;
+	color: black;
+}
+.navbar-nav-custom > li:last-child	{
+	margin-right: 0;
 }
 .navbar-nav-custom > li > a:hover	{
 	border-top: 3px solid #ff6033;
-	padding-top: 0;
+	padding-top: 5px;
 }
-.navbar-right-custom	{
-	margin-right: 0px;
-}
+
 .jumbotron-custom	{
 	background: #f9f8fb url("../img/background-strawberry.jpg") no-repeat center center;
 	background-size: cover;
@@ -82,21 +87,15 @@ h1	{
 	padding-bottom: 20px;
 }
 .col-custom-about-us	{
-text-align: center;
+/*text-align: center;*/
 }
 
-.col-custom-about-us:before	{
-	content: '';
-	display: inline-block;
-	height: 100%;
-	vertical-align: middle;
-	margin-right: -0.25em; /* Adjusts for spacing */
-}
 .about-us-col-custom-wraper	{
 	color: white;
-  display: inline-block;
-  vertical-align: middle;
-  width: 300px;
+ 	display: inline-block;
+ 	vertical-align: middle;
+  	/*width: 300px;*/
+  	margin-top: 25%;
 }
 
 
@@ -198,7 +197,7 @@ text-align: center;
 
 }
 .lead-custom-subscribe	{
-	width: 550px;
+	max-width: 550px;
 }
 
 .subscribe-form-control-custom	{
@@ -323,5 +322,17 @@ footer p	{
 		background-size: auto;
 		padding-top: 330px;
 
+	}
+	
+}
+@media 	only screen and (min-width: 1770px)	{
+	.navbar-default-custom	{
+	padding: 2px 300px 0 290px;
+	}
+}
+@media 	only screen and (max-width: 990px)	{
+	.navbar-default-custom .navbar-nav-custom > li > a	{
+		margin-right: 20px;
+		font-size: 14px;
 	}
 }

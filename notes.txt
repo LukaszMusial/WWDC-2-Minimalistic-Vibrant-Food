@@ -11,6 +11,20 @@ mo¿e to siê przydaæ :)
 
 ----------------------------------
 
+
+
+                      ==========================
+
+
+	przy mediaquery rozkminiæ container i container fluid
+
+
+                      ==========================
+
+
+
+----------------------------------
+
 *rozszerzyæ background w ps ¿eby truskawka(dla wszystkich) mieœci³a siê ca³a (lub/i ustaliæ wiêkszy container[jednak raczej nie]) /mediaquery 1230px zmiana t³a
 lu zmiana wyœwietlania/ +
 *Background i margines w h1 w headerze zminiejszyæ w mniejszych szerokoœciach
@@ -36,6 +50,4 @@ lu zmiana wyœwietlania/ +
 *footer dla mobile wycentrowaæ
 *linear gradient to transparent o co chodzi
 *zablokowaæ areatext
-=======
 *przejœcie do stanu focus w inputach bardziej g³adkie animowane
->>>>>>> origin/master
