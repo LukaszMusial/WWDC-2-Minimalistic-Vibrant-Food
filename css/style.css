@@ -321,7 +321,6 @@ footer p	{
 		height: 1000px;
 		background-size: auto;
 		padding-top: 330px;
-
 	}
 	
 }
@@ -334,5 +333,10 @@ footer p	{
 	.navbar-default-custom .navbar-nav-custom > li > a	{
 		margin-right: 20px;
 		font-size: 14px;
+	}
+	.jumbotron-custom	{
+		height: auto;
+		background-size: cover;
+		padding-top: 0;
 	}
 }
