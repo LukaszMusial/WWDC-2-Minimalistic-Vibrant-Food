@@ -53,6 +53,7 @@ h2	{
 	background: #f9f8fb url("../img/background-strawberry.jpg") no-repeat center center;
 	background-size: cover;
 	height: 100vh;
+	min-height: 600px;
 /*	-webkit-background-size: cover;
  	-moz-background-size: cover;
   	-o-background-size: cover;*/
@@ -81,9 +82,12 @@ h2	{
 	height: 55px;
 }
 .row-custom-mouse	{
-	padding-bottom: 70px;
+	padding-top: 25vh;
 	margin-right: 0;
 	margin-left: 0;
+	/*position: fixed;*/
+	/*padding: 50vh 50vw;*/
+
 }
 .about-us	{
 	background-color: #00c4c4;

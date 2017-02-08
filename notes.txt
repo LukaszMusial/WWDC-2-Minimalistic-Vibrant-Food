@@ -9,6 +9,12 @@ mo¿e to siê przydaæ :)
  dodatkowa treœæ (ajaxem, czy czym tam chcecie).
 
 
+mediaquery:
+768
+992
+1200
+
+
 ----------------------------------
 
 
