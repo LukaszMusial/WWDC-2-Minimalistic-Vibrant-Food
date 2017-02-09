@@ -15,7 +15,7 @@ h2	{
 }
 
 .navbar-default-custom	{
-	margin-bottom: 0;
+	margin-bottom: 10;
 	margin-top: 27px;
 	/*padding: 2px 300px 0 290px;*/
 	border: none;
@@ -59,6 +59,12 @@ h2	{
   	-o-background-size: cover;*/
 	padding-top: 200px;
 	margin-bottom: 0px;
+	position: relative;
+}
+.row-custom-lead	{
+	position: absolute;
+	top: 40vh;
+	left: 15vw;
 }
 .lead-custom	{
 	max-width: 370px;
@@ -70,6 +76,7 @@ h2	{
 	background-color: #ff6033;
 	border-radius: 0;
 	border: none;
+	margin-top: 20px;
 }
 
 .center-new	{
@@ -82,7 +89,10 @@ h2	{
 	height: 55px;
 }
 .row-custom-mouse	{
-	padding-top: 25vh;
+	position: absolute;
+	top: 90vh;
+	left: 50vw;
+	/*padding-top: 20vh;*/
 	margin-right: 0;
 	margin-left: 0;
 	/*position: fixed;*/
@@ -115,6 +125,12 @@ h2	{
 
 .wrap-services-boxibox2	{
 /*padding-left: 260px;*/
+}
+.services h2	{
+	color: white;
+	text-align: center;
+	/*background-color: green;*/
+	padding-bottom: 7%;
 }
 
 .services-box	{
@@ -162,8 +178,8 @@ h2	{
 
 .services-box:nth-child(3) > p   {
 	position: absolute;
-	top: 30%;
-	transform: translateY(-30%);
+	top: 20%;
+	transform: translateY(-20%);
   	left: 50%;
 	transform: translateX(-50%);
 }
@@ -353,19 +369,73 @@ footer p	{
 		background-size: cover;
 		padding-top: 150px;
 	}
+	h2	{
+		font-weight: 400;
+		font-size: 40px;
+	}
+	.about-us-col-custom-wraper	{
+  		margin-top: 0;
+	}
+	.services	{
+		padding: 70px 0;
+	}
+	.wrap-services-head > h2	{
+		top: 45%;
+		left: 18%;
+	}
+	.wrap-services-head img	{
+		padding-top: 10%;
+	}
+	.services-box > p   {
+		top: 30%;
+	}
+	.gallery	{
+		padding: 35px 0 0 0;
+	}
+	.blog	{
+		padding: 80px 0;
+	}
 }
 
 @media 	only screen and (max-width: 768px)	{
-	.home	{
-		height: 100%;
-		width: 100%;
-		padding: 0;
-	}
+
 	.jumbotron-custom	{
-		/*width: 100%;*/
-		padding: 0;
-		margin: 0;
+		background-position: 25%;
+	}
+	.row-custom-lead	{
+		top: 30vh;
+		left: 15%;
+		/*text-align: center;*/
+	}
+
+	.row-custom-lead p	{
+		margin-top: 5vh;
+	}
+	.about-us	{
+		background: #00c4c4 url("../img/bg-cup.png") no-repeat -55vw 8vh;
 		background-size: cover;
-		padding-top: 150px;
+	}
+	.about-us img	{
+		display: none;
+	}
+	.about-us-col-custom-wraper	{
+  		text-align: center;
+  		padding: 30px 0;
+	}
+	.wrap-services-head img	{
+		display: none;
+	}
+		.services-box > p   {
+		top: 40%;
+	}
+	.subscribe	{
+		padding: 100px 0;
+	}
+
+
+}
+@media 	only screen and (min-width: 768px)	{
+	.subscribe .btn-primary-custom	{
+		margin-top: 0;
 	}
 }
