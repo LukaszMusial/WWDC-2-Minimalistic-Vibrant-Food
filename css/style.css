@@ -241,7 +241,10 @@ h2	{
 }
 .blog	{
 	background-color: #b07cf8;
-	padding: 105px 0;
+	padding: 75px 0 100px 0;
+}
+.blog p	{
+	padding-bottom: 40px;
 }
 .thumbnail-new	{
 	position: relative;
@@ -425,12 +428,20 @@ footer p	{
 	.wrap-services-head img	{
 		display: none;
 	}
-		.services-box > p   {
+	.services-box > p   {
 		top: 40%;
 	}
 	.subscribe	{
 		padding: 100px 0;
 	}
+	.thumbnail-new-box > p	{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	color: rgba(255, 255, 255, 1);
+	line-height: 130%;
+	padding-top: 20px;
+}
 
 
 }
