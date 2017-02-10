@@ -14,6 +14,12 @@ h2	{
 	font-size: 74px;
 }
 
+
+
+/*-------------------------    NAVBAR   ------------------------------*/
+
+
+
 .navbar-default-custom	{
 	margin-bottom: 10;
 	margin-top: 27px;
@@ -46,9 +52,13 @@ h2	{
 	padding-top: 5px;
 }
 
-.home	{
 
-}
+
+/*-------------------------    HOME   ------------------------------*/
+
+
+
+
 .jumbotron-custom	{
 	background: #f9f8fb url("../img/background-strawberry.jpg") no-repeat center center;
 	background-size: cover;
@@ -99,6 +109,13 @@ h2	{
 	/*padding: 50vh 50vw;*/
 
 }
+
+
+
+/*-------------------------    ABOUT US   ------------------------------*/
+
+
+
 .about-us	{
 	background-color: #00c4c4;
 	padding-top: 40px;
@@ -115,6 +132,11 @@ h2	{
   	/*width: 300px;*/
   	margin-top: 25%;
 }
+
+
+/*-------------------------    SERVICES   ------------------------------*/
+
+
 
 
 .services	{
@@ -196,6 +218,13 @@ h2	{
 	text-align: center;
 }
 
+
+
+
+/*-------------------------    GALLETRY   ------------------------------*/
+
+
+
 .gallery	{
 	background-color: #ffe92f;
 	padding-top: 75px;
@@ -209,6 +238,13 @@ h2	{
 .col-custom {
   margin-bottom: 30px;
 }
+
+
+
+/*-------------------------    SUBCRIBE   ------------------------------*/
+
+
+
 
 .subscribe	{
 	background: url("../img/subscribe-bg.jpg") no-repeat center center;
@@ -239,13 +275,24 @@ h2	{
 .form-control-custom-subscribe::-ms-input-placeholder	{
 	color: #c2c2c2;
 }
+
+
+
+/*-------------------------    BLOG   ------------------------------*/
+
+
+
 .blog	{
 	background-color: #b07cf8;
 	padding: 75px 0 100px 0;
 }
-.blog p	{
-	padding-bottom: 40px;
+.lead-custom-blog	{
+	margin-top: 15px;
+	margin-bottom: 35px;
 }
+/*.blog a	{
+	display: block;
+}   link do thumbnails*/
 .thumbnail-new	{
 	position: relative;
 	-webkit-box-shadow: inset 0px -123px 128px -41px rgba(0,0,0,0.84);
@@ -276,7 +323,7 @@ h2	{
 	bottom: 35px;
 }
 .thumbnail-new > p:nth-child(4)	{
-	bottom: 10px;
+	bottom: 5px;
 }
 .thumbnail-new .thumbnail-new-box	{
 	position: absolute;
@@ -293,15 +340,23 @@ h2	{
 	font-size: 20px;
 	text-align: center;
 	color: rgba(255, 255, 255, 1);
-	line-height: 130%;
+	line-height: 150%;
 	padding-top: 6px;
 }
 .thumbnail-new-box > p:first-line	{
 	font-size: 32px;
 }
+
+
+
+/*-------------------------    CONTACT   ------------------------------*/
+
+
+
 .contact	{
 	background: url("../img/contact-bg.jpg") no-repeat;
 	background-size: cover;
+	padding-bottom: 150px;
 }
 .contact-form-group-custom	{
 	margin: 0;
@@ -316,6 +371,7 @@ h2	{
 }
 .contact-form-group-custom textarea	{
 	padding: 15px;
+	resize: none;
 }
 
 .contact-form-control-custom:focus	{
@@ -328,10 +384,20 @@ h2	{
 .contact-form-control-custom::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color:    #ffffff;
 }
-
+.contact .container .lead-custom	{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
 .contact-text-wrapper	{
 	margin-top: 15px;
 }
+
+
+
+/*-------------------------    FOOTER   ------------------------------*/
+
+
+
 
 footer	{
 	background-color: #262626;
@@ -343,6 +409,13 @@ footer p	{
 	color: #b9b9b9;
 	padding-top: 6px;
 }
+
+
+
+
+/*-------------------------    MEDIAQUERY   ------------------------------*/
+
+
 
 @media 	only screen and (min-width: 1230px)	{
 	.jumbotron-custom	{
@@ -393,10 +466,13 @@ footer p	{
 		top: 30%;
 	}
 	.gallery	{
-		padding: 35px 0 0 0;
+		padding: 35px 0;
 	}
 	.blog	{
-		padding: 80px 0;
+		padding: 35px 0;
+	}
+	.contact	{
+		padding: 35px 0 50px 0;
 	}
 }
 
@@ -433,18 +509,32 @@ footer p	{
 	}
 	.subscribe	{
 		padding: 100px 0;
+		text-align: center;
+	}
+	.contact-text-wrapper	{
+		margin-top: 80px;
+		color: white;
+		text-align: center;
+	}
+	footer	{
+		text-align: center;
+	}
+}
+@media screen and (max-width: 990px) and (min-width: 768px)	{
+	.thumbnail-new .thumbnail-new-box	{
+		top: 15px;
+		left: 15px;
+		height: 50px;
+		width: 50px;
 	}
 	.thumbnail-new-box > p	{
-	color: white;
-	font-size: 20px;
-	text-align: center;
-	color: rgba(255, 255, 255, 1);
-	line-height: 130%;
-	padding-top: 20px;
+		padding-top: 2px;
+	}
+	.thumbnail-new > p:nth-child(3)	{
+		bottom: 5px;
+	}	
 }
 
-
-}
 @media 	only screen and (min-width: 768px)	{
 	.subscribe .btn-primary-custom	{
 		margin-top: 0;

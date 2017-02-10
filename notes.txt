@@ -14,51 +14,19 @@ mediaquery:
 992
 1200
 
-<div class="col-xs-6 col-xs-offset-2 col-sm-4 col-xs-offset-0">
-<div class="col-xs-4 col-xs-offset-0 col-sm-6 col-sm-offset-2 center wrap-services-head">
-
 
 ----------------------------------
 
 
 
-                      ==========================
-
-
-	przy mediaquery rozkminiæ container i container fluid
-
-
-                      ==========================
-
-
-
 ----------------------------------
 
-*rozszerzyæ background w ps ¿eby truskawka(dla wszystkich) mieœci³a siê ca³a (lub/i ustaliæ wiêkszy container[jednak raczej nie]) /mediaquery 1230px zmiana t³a
-lu zmiana wyœwietlania/ +
-*Background i margines w h1 w headerze zminiejszyæ w mniejszych szerokoœciach
-*Zmiana czcionek i wielkoœci h... w tym kolory
-*svg mysz (mo¿e button) +
-*centrowanie w kolumnach +
 *sprawdziæ klasy wed³ug BEM
-*koniec na padding-topie about us zmieniæ
-*rwd about-us sm pokombinowaæ z bg
-*bg strawberry mediaquery ponad 1600px nag³ówek za pomoc¹ grida wypozycjonowaæ [mediaqury dla wszystkich sekcji, dla lg zasotosowaæ class container!]
-*grid z ps pokrywa siê z gridem bootstrapa, wypozycjonowaæ pod grid
-*about us p zmieniæ sztywny padding lub margin na centrowanie dzia³aj¹ce responsywnie
-*services mediaquery i zmiana ofssetu w kolumnach, pseudoklasa jest niewidoczna dla grida
-*mediaquery po dwa w rzêdzie zdjêcia zamiast 3
-*nag³ówki w sekcjach wrzuciæ w div lubr row i col-xx-12
 *do inputów dodaæ labele i póŸniej je ukryæ lub u¿yæ title /poczytaæ na ten temat/
-<<<<<<< HEAD
-*Blog thumbnailsy/karty dodaæ jako linki
-*About us text wycentrowaæ rozj¿d¿a siê przy mniejszych szerokoœciach
-*Services jakaœ przerwa miêdzy kartami a img przy mniejszych szerokoœciach
-*Subscribe przy mobile przerwa miêdzy formem a buttonem
-*Blog przy mobile zmiana wielkoœci tekstu
-*footer dla mobile wycentrowaæ
-*linear gradient to transparent o co chodzi
-*zablokowaæ areatext
 *przejœcie do stanu focus w inputach bardziej g³adkie animowane
 *w jumbotronie od pewnego (niekorzystnego rozmiaru) blokada na zmniejszanie wyskoœci oknem przegl¹darki
+
 *jakiœ blur lub t³o pod teksty na zlewaj¹cym siê backgroundzie
+*menu mobile js
+*kolory buttonów
+*ogarn¹æ bia³y margines po lewej stronie od 795px Sekcja Blog!
