@@ -54,19 +54,19 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-nav-custom navbar-right navbar-right-custom text-uppercase">
-                <li><a href="#"><strong>Home</strong></a></li>
-                <li><a href="#about-us"><strong>About</strong></a></li>
-                <li><a href="#services"><strong>Services</strong></a></li>
-                <li><a href="#gallery"><strong>Gallery</strong></a></li>
-                <li><a href="#subscribe"><strong>Subcribe</strong></a></li>
-                <li><a href="#blog"><strong>Blog</strong></a></li>
-                <li><a href="#contact"><strong>Contact</strong></a></li>           
+                <li><a id="first-link" href="#"><strong>Home</strong></a></li>
+                <li><a id="second-link" href="#"><strong>About</strong></a></li>
+                <li><a id="third-link" href="#"><strong>Services</strong></a></li>
+                <li><a id="fourth-link" href="#"><strong>Gallery</strong></a></li>
+                <li><a id="fifth-link" href="#"><strong>Subcribe</strong></a></li>
+                <li><a id="sixth-link" href="#"><strong>Blog</strong></a></li>
+                <li><a id="seventh-link" href="#"><strong>Contact</strong></a></li>           
               </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
 
-    <section class="home">
+    <section id="home" class="home">
         <div class="jumbotron jumbotron-custom">
             <header class="container">
                 <div class="row-custom-lead">
@@ -319,7 +319,20 @@
 
     <script src="js/jquery-3.1.1.min.js"></script>
 
+    <script src="js/jquery.scrollTo.min"></script>
+
     <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        jQuery(function($)
+        {
+            $.ssrollTo(0);
+
+            $('#first-link').click(function() { $.scrollTo($('#home'), 500);});
+            $('#second-link').click(function() { $.scrollTo($('#about-us'), 500);});
+        }
+        );
+    </script>
 </body>
 
 </html>
