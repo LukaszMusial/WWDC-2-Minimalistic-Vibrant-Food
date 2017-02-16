@@ -26,7 +26,5 @@ mediaquery:
 *przejœcie do stanu focus w inputach bardziej g³adkie animowane
 *w jumbotronie od pewnego (niekorzystnego rozmiaru) blokada na zmniejszanie wyskoœci oknem przegl¹darki
 
-*jakiœ blur lub t³o pod teksty na zlewaj¹cym siê backgroundzie
-*menu mobile js
-*kolory buttonów
-*ogarn¹æ bia³y margines po lewej stronie od 795px Sekcja Blog!
+
+*show more ajax gallery

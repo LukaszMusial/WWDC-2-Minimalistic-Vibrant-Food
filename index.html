@@ -238,7 +238,7 @@
             </div>
         </div>
     </section>
-    <section id="contact" class="contact">
+    <section id="contact"  class="contact">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -319,19 +319,32 @@
 
     <script src="js/jquery-3.1.1.min.js"></script>
 
-    <script src="js/jquery.scrollTo.min"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
 
     <script src="js/bootstrap.min.js"></script>
 
     <script>
-        jQuery(function($)
+        $(function($)
         {
-            $.ssrollTo(0);
+            $.scrollTo(0);
 
-            $('#first-link').click(function() { $.scrollTo($('#home'), 500);});
-            $('#second-link').click(function() { $.scrollTo($('#about-us'), 500);});
+            $('#first-link').click(function() { $.scrollTo($('#home'), 500); });
+            $('#second-link').click(function() { $.scrollTo($('#about-us'), 500); });
+            $('#third-link').click(function() { $.scrollTo($('#services'), 500); });
+            $('#fourth-link').click(function() { $.scrollTo($('#gallery'), 500); });
+            $('#fifth-link').click(function() { $.scrollTo($('#subscribe'), 500); });
+            $('#sixth-link').click(function() { $.scrollTo($('#blog'), 500); });
+            $('#seventh-link').click(function() { $.scrollTo($('#contact'), 500); });
+           
         }
         );
+
+        $(function(){ 
+            var navMain = $("#bs-example-navbar-collapse-1");
+            navMain.on("click", "a", null, function () {
+                navMain.collapse('hide');
+            });
+        });
     </script>
 </body>
 

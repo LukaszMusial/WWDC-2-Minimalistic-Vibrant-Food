@@ -62,39 +62,40 @@ h2	{
 /*-------------------------    NAVBAR   ------------------------------*/
 
 
-
 .navbar-default-custom	{
-	margin-bottom: 10;
-	margin-top: 27px;
-	/*padding: 2px 300px 0 290px;*/
 	border: none;
-	height: 55px;
+	height: 75px;
 	/*background: none;*/
 }
+.container-navbar-custom	{
+	padding-top: 15px;
+}
 .navbar-brand-custom	{
-	padding: 0 0 0 0;
+	padding: 0;
 }
 
 .navbar-nav-custom	{
-	margin: 0;
+	margin-top: 0;
+
 
 }
 
 .navbar-default-custom .navbar-nav-custom > li > a	{
+	text-align: center;
 	padding: 0;
+	margin-top: 5px;
 	padding-top: 8px;
 	margin-right: 40px;
 	font-size: 16px;
 	color: black;
 }
-.navbar-nav-custom > li:last-child	{
+.navbar-nav-custom > li:last-child > a	{
 	margin-right: 0;
 }
 .navbar-nav-custom > li > a:hover	{
 	border-top: 3px solid #ff6033;
 	padding-top: 5px;
 }
-
 
 
 /*-------------------------    HOME   ------------------------------*/
@@ -125,12 +126,8 @@ h2	{
 	position: absolute;
 	top: 90vh;
 	left: 46vw;
-	/*padding-top: 20vh;*/
 	margin-right: 0;
 	margin-left: 0;
-	/*position: fixed;*/
-	/*padding: 50vh 50vw;*/
-
 }
 
 
@@ -456,7 +453,9 @@ footer p	{
 		background-size: auto;
 		padding-top: 330px;
 	}
-	
+	.row-custom-mouse	{
+		left: 50vw;
+	}
 }
 @media 	only screen and (max-width: 1200px)	{
 	.wrap-services-head > h2	{
@@ -468,10 +467,12 @@ footer p	{
 	.navbar-default-custom	{
 	padding: 2px 300px 0 290px;
 	}
+
 }
 @media 	only screen and (max-width: 990px)	{
 	.navbar-default-custom .navbar-nav-custom > li > a	{
 		margin-right: 20px;
+		margin-top: 0;
 		font-size: 14px;
 	}
 	.jumbotron-custom	{
@@ -485,6 +486,7 @@ footer p	{
 	.about-us-col-custom-wraper	{
   		margin-top: 0;
 	}
+
 	.services	{
 		padding: 70px 0;
 	}
@@ -499,21 +501,58 @@ footer p	{
 		top: 30%;
 	}
 	.gallery	{
-		padding: 35px 0;
+		padding: 70px 0;
 	}
 	.subscribe p	{
 		border-radius: 10px;
 		background:rgba(255,255,255,0.7);
 	}
 	.blog	{
-		padding: 35px 0;
+		padding: 70px 0;
 	}
 	.contact	{
-		padding: 35px 0 50px 0;
+		padding: 70px 0 50px 0;
 	}
 }
 
 @media 	only screen and (max-width: 768px)	{
+
+	svg	{
+		width: 90px;
+		}
+	.navbar-default-custom	{
+		margin-bottom: 10px;
+		/*padding-bottom: 200px;*/
+		padding-top: 0;
+		/*padding: 2px 300px 0 290px;*/
+		border-bottom: none;
+		height: 55px;
+		/*background: none;*/
+	}
+	.container-navbar-custom	{
+		padding-top: 0;
+	}
+
+	.navbar-brand-custom	{
+		float: none;
+		margin-left: 15%; 
+		/*padding-bottom: 10px;*/
+	}
+	.navbar-default-custom .navbar-nav-custom > li	{
+		background-color: white;
+	}
+	.navbar-default-custom .navbar-nav-custom > li > a	{
+		text-align: center;
+		padding-top: 15px;
+	}
+	.navbar-default-custom .navbar-nav-custom > li:last-child > a	{
+		padding-bottom: 15px;
+	}
+	.navbar-default-custom .navbar-nav-custom > li > a:hover	{
+		border-top: none;
+		padding-top: 15px;
+	}
+
 
 	.jumbotron-custom	{
 		background-position: 25%;
@@ -526,6 +565,9 @@ footer p	{
 
 	.row-custom-lead p	{
 		margin-top: 5vh;
+	}
+	.row-custom-mouse	{
+	left: 44vw;
 	}
 	.about-us	{
 		background: #00c4c4 url("../img/bg-cup.png") no-repeat -55vw 8vh;
@@ -563,6 +605,28 @@ footer p	{
 	}
 	footer	{
 		text-align: center;
+	}
+}
+@media 	only screen and (max-width: 555px)	{
+
+	.services-box > p   {
+		top: 30%;
+		transform: translateY(-30%);
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.row-custom-mouse	{
+		left: 36vw;
+	}
+}
+
+@media 	only screen and (max-width: 588px)	{
+
+	.services-box > p:first-child   {
+		top: 30%;
+		transform: translateY(-30%);
+		 left: 50%;
+		transform: translateX(-50%);
 	}
 }
 @media screen and (max-width: 990px) and (min-width: 768px)	{
